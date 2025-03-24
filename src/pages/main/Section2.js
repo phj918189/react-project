@@ -126,9 +126,6 @@ function Section2() {
   }, []);
 
 
-
-
-
   const [upDown, setUpDown] = useState(false); //false(위)/true(아래)
   let offsetTop; //박스의 위쪽 거리
   const divRef = useRef(null);
